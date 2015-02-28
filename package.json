@@ -1,0 +1,42 @@
+{
+  "name": "express-query-date",
+  "version": "1.0.0",
+  "description": "Convert query strings to dates for express/connect applications.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariusc23/express-query-date.git"
+  },
+  "keywords": [
+    "express",
+    "connect",
+    "query",
+    "qs",
+    "date",
+    "dates",
+    "moment",
+    "momentjs"
+  ],
+  "author": "Marius Craciunoiu (http://www.mariusc23.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusc23/express-query-date/issues"
+  },
+  "homepage": "https://github.com/mariusc23/express-query-date",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "dependencies": {
+    "moment": ">=2.0.0"
+  }
+}
